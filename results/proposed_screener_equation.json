@@ -1,0 +1,34 @@
+{
+  "intercept": 0.4077,
+  "coef_raw": {
+    "contact_out_wh": -0.13803,
+    "freetime_work": -0.19056,
+    "norest_b": 0.17043,
+    "night": 0.02882,
+    "longday": 0.02183,
+    "loc_home": -0.00798,
+    "computer": -0.00825,
+    "usual_hours_week": -0.01147
+  },
+  "OR_per_SD": {
+    "contact_out_wh": 0.869,
+    "freetime_work": 0.826,
+    "norest_b": 1.067,
+    "night": 1.103,
+    "longday": 1.093,
+    "loc_home": 0.991,
+    "computer": 0.979,
+    "usual_hours_week": 0.886
+  },
+  "imputation_median": {
+    "contact_out_wh": 4.0,
+    "freetime_work": 5.0,
+    "norest_b": 0.0,
+    "night": 0.0,
+    "longday": 0.0,
+    "loc_home": 5.0,
+    "computer": 2.0,
+    "usual_hours_week": 40.0
+  },
+  "coding": "frequency items 1=most frequent..5=never (computer 1..7); norest_b 1=yes; night/longday times per month (0 if never); hours numeric"
+}

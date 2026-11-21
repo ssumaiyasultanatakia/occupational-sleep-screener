@@ -1,0 +1,121 @@
+{
+  "edition_check": {
+    "n_v1": 36644,
+    "n_v2": 36644,
+    "same_ids_order": true,
+    "n_cells_differing": {
+      "contact_out_wh": 0,
+      "freetime_work": 0,
+      "wlb_worry": 0,
+      "wlb_tired": 0,
+      "norest": 0,
+      "night": 0,
+      "longday": 0,
+      "loc_home": 0,
+      "computer": 0,
+      "usual_hours_week": 0,
+      "sleeping_difficulties": 0,
+      "wellbeing": 0,
+      "quit_job": 0,
+      "health_anxiety": 0,
+      "country": 0,
+      "age": 131,
+      "sex_id": 0,
+      "isced": 0,
+      "calweight": 0,
+      "stratumid": 0,
+      "samplingpointid": 0,
+      "ISCO_1": 0,
+      "NACE1": 0
+    }
+  },
+  "design": {
+    "n_psu_employees": 3582,
+    "n_strata": 487,
+    "median_psu_size": 8.0
+  },
+  "dti_sleep": {
+    "unweighted_country_cluster": {
+      "OR": 1.658,
+      "lo": 1.583,
+      "hi": 1.736,
+      "n": 30234
+    },
+    "weighted_psu_cluster(design-based)": {
+      "OR": 1.717,
+      "lo": 1.594,
+      "hi": 1.85,
+      "n": 30234
+    },
+    "weighted_country_cluster": {
+      "OR": 1.717,
+      "lo": 1.584,
+      "hi": 1.861,
+      "n": 30234
+    },
+    "extended_adjustment(+occupation,+sector,+country FE)": {
+      "OR": 1.651,
+      "lo": 1.589,
+      "hi": 1.716,
+      "n": 30234
+    },
+    "outcome_daily_only": {
+      "OR": 1.575,
+      "lo": 1.462,
+      "hi": 1.697,
+      "n": 30234
+    },
+    "outcome_any_difficulty": {
+      "OR": 1.819,
+      "lo": 1.697,
+      "hi": 1.949,
+      "n": 30234
+    },
+    "edition2_ages": {
+      "OR": 1.658,
+      "lo": 1.583,
+      "hi": 1.736,
+      "n": 30234
+    }
+  },
+  "category_OR_design_based": {
+    "c_4": [
+      1.05,
+      0.87,
+      1.26
+    ],
+    "c_3": [
+      1.73,
+      1.4,
+      2.13
+    ],
+    "c_2": [
+      2.81,
+      2.15,
+      3.66
+    ],
+    "c_1": [
+      2.63,
+      1.75,
+      3.97
+    ]
+  },
+  "B8_alt_outcomes": {
+    "sleep_bad": {
+      "prev": 21.3,
+      "auroc": 0.608
+    },
+    "sleep_daily": {
+      "prev": 4.2,
+      "auroc": 0.598
+    },
+    "sleep_any": {
+      "prev": 61.0,
+      "auroc": 0.626
+    }
+  },
+  "B8_auroc_psu_cluster_ci": [
+    0.599,
+    0.617
+  ]
+}

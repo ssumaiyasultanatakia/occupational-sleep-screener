@@ -1,0 +1,102 @@
+\clearpage
+\section*{Supplementary Material (for reviewers; also in the code repository)}
+\subsection*{S1. Per-country results of the proposed screener (B8, leave-one-country-out)}
+Each country is scored by a model trained on the other 34. AUROC 95\% CI: 500 bootstrap resamples within country. Sens./Spec./Ref.\%: threshold set for 80\% sensitivity on the training countries and applied unchanged. O/E: observed/expected cases (values far from 1 show the need for local intercept recalibration). Reference-model AUROC in last column. $^\dagger$Non-EU.
+\begin{center}\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}lrrrcccccc@{}}
+\toprule Country & $n$ & Events & Prev.\% & AUROC (95\% CI) & Sens. & Spec. & Ref.\% & O/E & M10\\ \midrule\endhead
+Albania$^\dagger$ (AL) & 637 & 167 & 26.2 & 0.586 (0.535--0.634) & 0.90 & 0.17 & 84.9 & 1.11 & 0.652\\
+Austria (AT) & 864 & 118 & 13.7 & 0.611 (0.550--0.669) & 0.78 & 0.30 & 71.2 & 0.65 & 0.714\\
+Bosnia and Herzegovina$^\dagger$ (BA) & 992 & 149 & 15.0 & 0.653 (0.613--0.705) & 0.85 & 0.33 & 70.0 & 0.72 & 0.727\\
+Belgium (BE) & 1{,}787 & 590 & 33.0 & 0.577 (0.550--0.606) & 0.81 & 0.26 & 76.5 & 1.54 & 0.681\\
+Bulgaria (BG) & 848 & 99 & 11.7 & 0.616 (0.551--0.685) & 0.71 & 0.47 & 54.7 & 0.60 & 0.668\\
+Switzerland$^\dagger$ (CH) & 914 & 190 & 20.8 & 0.604 (0.557--0.651) & 0.88 & 0.23 & 79.1 & 0.93 & 0.739\\
+Cyprus (CY) & 707 & 187 & 26.4 & 0.577 (0.526--0.625) & 0.70 & 0.40 & 62.8 & 1.24 & 0.735\\
+Czechia (CZ) & 866 & 205 & 23.7 & 0.593 (0.551--0.636) & 0.82 & 0.31 & 72.3 & 1.10 & 0.698\\
+Germany (DE) & 952 & 235 & 24.7 & 0.565 (0.520--0.607) & 0.75 & 0.29 & 71.7 & 1.16 & 0.686\\
+Denmark (DK) & 916 & 239 & 26.1 & 0.522 (0.481--0.563) & 0.81 & 0.24 & 77.3 & 1.21 & 0.672\\
+Estonia (EE) & 839 & 240 & 28.6 & 0.592 (0.549--0.632) & 0.84 & 0.29 & 75.0 & 1.33 & 0.641\\
+Spain (ES) & 882 & 241 & 27.3 & 0.572 (0.532--0.614) & 0.76 & 0.32 & 70.1 & 1.31 & 0.640\\
+Finland (FI) & 862 & 207 & 24.0 & 0.538 (0.495--0.579) & 0.77 & 0.24 & 76.5 & 1.10 & 0.652\\
+France (FR) & 919 & 263 & 28.6 & 0.577 (0.534--0.622) & 0.68 & 0.42 & 60.8 & 1.43 & 0.706\\
+Greece (GR) & 722 & 89 & 12.3 & 0.720 (0.664--0.773) & 0.85 & 0.40 & 63.3 & 0.60 & 0.767\\
+Croatia (HR) & 867 & 116 & 13.4 & 0.613 (0.552--0.670) & 0.78 & 0.34 & 67.2 & 0.63 & 0.672\\
+Hungary (HU) & 890 & 56 & 6.3 & 0.625 (0.542--0.699) & 0.75 & 0.51 & 51.0 & 0.33 & 0.737\\
+Ireland (IE) & 935 & 175 & 18.7 & 0.654 (0.610--0.698) & 0.89 & 0.27 & 76.3 & 0.85 & 0.715\\
+Italy (IT) & 722 & 84 & 11.6 & 0.634 (0.570--0.692) & 0.82 & 0.35 & 66.9 & 0.58 & 0.732\\
+Lithuania (LT) & 879 & 181 & 20.6 & 0.580 (0.532--0.630) & 0.60 & 0.47 & 54.5 & 1.06 & 0.706\\
+Luxembourg (LU) & 463 & 145 & 31.3 & 0.540 (0.480--0.594) & 0.74 & 0.29 & 71.7 & 1.50 & 0.677\\
+Latvia (LV) & 944 & 239 & 25.3 & 0.577 (0.536--0.618) & 0.76 & 0.36 & 67.4 & 1.22 & 0.676\\
+Montenegro$^\dagger$ (ME) & 841 & 191 & 22.7 & 0.625 (0.575--0.674) & 0.97 & 0.06 & 94.6 & 0.86 & 0.654\\
+North Macedonia$^\dagger$ (MK) & 832 & 117 & 14.1 & 0.625 (0.566--0.683) & 0.72 & 0.47 & 55.6 & 0.70 & 0.649\\
+Malta (MT) & 676 & 119 & 17.6 & 0.603 (0.547--0.660) & 0.85 & 0.25 & 77.1 & 0.77 & 0.663\\
+Netherlands (NL) & 936 & 217 & 23.2 & 0.555 (0.510--0.596) & 0.91 & 0.17 & 84.7 & 1.01 & 0.677\\
+Norway$^\dagger$ (NO) & 917 & 270 & 29.4 & 0.600 (0.560--0.635) & 0.92 & 0.12 & 88.8 & 1.23 & 0.677\\
+Poland (PL) & 770 & 50 & 6.5 & 0.683 (0.609--0.760) & 0.84 & 0.46 & 56.4 & 0.34 & 0.715\\
+Portugal (PT) & 785 & 171 & 21.8 & 0.627 (0.576--0.673) & 0.78 & 0.38 & 65.7 & 1.08 & 0.656\\
+Romania (RO) & 767 & 107 & 14.0 & 0.628 (0.573--0.688) & 0.75 & 0.44 & 58.3 & 0.69 & 0.656\\
+Serbia$^\dagger$ (RS) & 836 & 208 & 24.9 & 0.649 (0.604--0.688) & 0.82 & 0.33 & 70.5 & 1.20 & 0.728\\
+Sweden (SE) & 895 & 237 & 26.5 & 0.591 (0.550--0.632) & 0.89 & 0.18 & 83.7 & 1.15 & 0.685\\
+Slovenia (SI) & 1{,}130 & 228 & 20.2 & 0.560 (0.523--0.599) & 0.71 & 0.37 & 64.6 & 0.97 & 0.675\\
+Slovakia (SK) & 909 & 144 & 15.8 & 0.594 (0.541--0.642) & 0.69 & 0.40 & 61.9 & 0.79 & 0.682\\
+Kosovo$^\dagger$ (XK) & 533 & 164 & 30.8 & 0.600 (0.545--0.654) & 0.82 & 0.28 & 74.7 & 1.38 & 0.645\\
+\midrule
+Total & 30{,}234 & 6{,}438 & 21.3 & RE mean 0.597 (PI 0.540--0.652) & & & & & \\
+\bottomrule\end{longtable}\end{center}
+\subsection*{S2. Right-to-disconnect coding}
+Source: Eurofound (2023), \emph{Right to Disconnect: Implementation and Impact at Company Level}, Table~1 (pp.~8--9). EWCS 2024 fieldwork: February--November 2024; every provision below was in force before fieldwork. Primary coding = country covered if a statute was in force. Eligibility coding (sensitivity) counts as covered only employees inside the legal scope: teleworker/smart-worker laws $\rightarrow$ employees working from home at least ``sometimes'' (q29d $\le 3$); ICT-user laws $\rightarrow$ device use at least about a quarter of the time (q53a $\le 5$). The other 18 EU Member States are uncovered (not listed in the Eurofound review of all Member States). The review does not cover the eight non-EU countries (NO, CH, AL, BA, ME, MK, RS, XK); they are therefore \emph{unclassified} and excluded from the primary (EU-27) policy analysis; a sensitivity analysis over all 35 countries codes them uncovered. Self-employed workers are excluded from all analyses.
+\begin{center}\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}p{1.6cm}p{5.6cm}p{1.9cm}p{4.3cm}p{2.2cm}@{}}
+\toprule Country & Instrument & In force & Scope (Eurofound) & Primary / eligibility coding\\ \midrule\endhead
+Belgium & Act of 26 March 2018, Arts.~16--17, as amended by law of 3 October 2022 & 1 Jan 2023 & all workers in private firms $>$20 employees (federal civil servants: from 1 Feb 2022) & covered / all\\
+Croatia & Labour Act amendment (passed 2022) & 2023 & employees: no contact outside hours unless urgent & covered / all\\
+France & Labour Code Art.~L2242-17 (amended 2016) & 1 Jan 2017 & employees; negotiation duty in firms $>$50 (charter $>$11) & covered / all\\
+Greece & Law 4808/2021, Art.~67 & 1 Jan 2023 & teleworkers (private); public-sector teleworkers (Law 4807/2021) & covered / teleworkers\\
+Italy & Law 81/2017 & 6 Jun 2017 & workers with smart-working contracts & covered / teleworkers\\
+Luxembourg & Labour Code Arts.~L.312-9, L.312-10 & 4 Jul 2023 & all workers who use ICT for work & covered / ICT users\\
+Portugal & Law 83/2021 of 6 December 2021 & 1 Jan 2022 & all workers who use ICT for work & covered / ICT users\\
+Slovakia & Law 76/2021 (Labour Code Art.~52(10)) & 1 Mar 2021 & all teleworkers incl.\ occasional & covered / teleworkers\\
+Spain & Organic Law 3/2018, Art.~88 & 7 Dec 2018 & all workers (in practice remote ICT users) & covered / ICT users\\
+Ireland & Code of Practice on the Right to Disconnect (not a statute) & 1 Apr 2021 & all employees & uncovered (sensitivity: covered)\\
+\bottomrule\end{longtable}\end{center}
+\noindent Dates are as reported in Eurofound (2023), Table 1. \textbf{All-worker laws} (sensitivity coding) = Belgium, Croatia, France, whose scope is not limited to teleworkers or ICT users; Spain is coded with the ICT-user laws because Eurofound notes that in practice it applies to remote ICT users.
+\noindent\textbf{Interaction estimates} (country-clustered 95\% CI). Sleep: odds ratio for exposure (per SD) $\times$ coverage; WHO-5: points per SD. $p$ = country-clustered; [wild] = wild-cluster bootstrap-$t$ (Webb, 1{,}999 replicates) on the linear-probability version of the interaction, primary coding only. No correction for multiple testing.
+\begin{center}\scriptsize\setlength{\tabcolsep}{2.5pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{3.45cm}>{\raggedright\arraybackslash}p{3.45cm}>{\raggedright\arraybackslash}p{3.45cm}>{\raggedright\arraybackslash}p{3.45cm}@{}}
+\toprule Population / coding & DTI $\times$ cov., sleep (OR) & Contact $\times$ cov., sleep (OR) & DTI $\times$ cov., WHO-5 ($\beta$) & Contact $\times$ cov., WHO-5 ($\beta$)\\ \midrule\endhead
+EU-27 (primary): statutory (primary) & 1.02 (0.93, 1.13) $p$=0.63 [wild 0.26] & 1.03 (0.94, 1.12) $p$=0.55 [wild 0.23] & -0.39 (-1.45, 0.67) $p$=0.47 [wild 0.51] & -1.00 (-1.91, -0.10) $p$=0.03 [wild 0.03]\\
+EU-27 (primary): Ireland covered & 1.04 (0.94, 1.14) $p$=0.43 & 1.04 (0.95, 1.13) $p$=0.38 & -0.28 (-1.32, 0.75) $p$=0.59 & -0.89 (-1.73, -0.05) $p$=0.04\\
+EU-27 (primary): all-worker laws only & 0.94 (0.86, 1.02) $p$=0.13 & 0.94 (0.88, 1.00) $p$=0.06 & -0.95 (-2.40, 0.49) $p$=0.20 & -0.94 (-2.57, 0.70) $p$=0.26\\
+EU-27 (primary): individual eligibility & 0.95 (0.87, 1.04) $p$=0.25 & 0.96 (0.89, 1.03) $p$=0.25 & -0.72 (-1.85, 0.40) $p$=0.21 & -0.81 (-2.03, 0.41) $p$=0.19\\
+EU-27 (primary): as submitted & 1.07 (0.98, 1.17) $p$=0.15 & 1.05 (0.97, 1.14) $p$=0.20 & -0.44 (-1.49, 0.62) $p$=0.41 & -0.78 (-1.66, 0.10) $p$=0.08\\
+EU-27 (primary): leave one covered country out & 1.01--1.05 & 1.01--1.04 & & \\
+\midrule
+All 35: statutory (primary) & 1.00 (0.91, 1.10) $p$=1.00 [wild 0.49] & 0.98 (0.90, 1.08) $p$=0.71 [wild 0.91] & -0.37 (-1.53, 0.79) $p$=0.53 [wild 0.56] & -0.61 (-1.62, 0.41) $p$=0.24 [wild 0.28]\\
+All 35: Ireland covered & 1.01 (0.92, 1.10) $p$=0.82 & 0.99 (0.91, 1.08) $p$=0.82 & -0.30 (-1.45, 0.84) $p$=0.60 & -0.49 (-1.45, 0.48) $p$=0.32\\
+All 35: all-worker laws only & 0.92 (0.85, 1.00) $p$=0.06 & 0.91 (0.85, 0.97) $p$=0.01 & -0.92 (-2.42, 0.58) $p$=0.23 & -0.61 (-2.28, 1.06) $p$=0.47\\
+All 35: individual eligibility & 0.93 (0.86, 1.01) $p$=0.09 & 0.92 (0.85, 1.00) $p$=0.04 & -0.69 (-1.90, 0.52) $p$=0.26 & -0.46 (-1.75, 0.83) $p$=0.48\\
+All 35: as submitted & 1.04 (0.95, 1.13) $p$=0.41 & 1.01 (0.93, 1.09) $p$=0.89 & -0.46 (-1.61, 0.70) $p$=0.44 & -0.42 (-1.41, 0.56) $p$=0.40\\
+All 35: leave one covered country out & 0.98--1.02 & 0.96--1.00 & & \\
+\midrule
+\bottomrule\end{longtable}\end{center}
+\noindent Exposure level (EU-27): weekly-or-more contact 7.8\% in covered vs 9.3\% in uncovered countries; adjusted OR 0.86 (0.60--1.23).
+\sloppy
+\subsection*{S3. Validation splits}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Internal validation: stratified 5-fold cross-validation over employees (scikit-learn \texttt{StratifiedKFold(5, shuffle=True, random\_state=0)} applied to the analytic sample in file order); folds are generated deterministically by the released code (respondent-level fold IDs are not distributed because they are derived from licensed microdata).
+\item Thresholds: inner \texttt{StratifiedKFold(3, shuffle=True, random\_state=1)} within each training fold.
+\item Geographic validation: leave-one-country-out (35 folds, one per country); no assignment table is needed.
+\item Region transfer: train on the 27 EU Member States, test on NO, CH, AL, BA, ME, MK, RS, XK.
+\item Temporal validation: train on all EWCS 2024 employees, test on EWCS 2015 employees (S4).
+\end{itemize}
+\subsection*{S4. Complete specification and reproduction}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Population: employees (q49 asked), poor-sleep outcome non-missing; $n=30{,}234$. Outcome = q86 $\in$ \{daily, several times a week\}.
+\item Pipeline (per training fold): median imputation $\rightarrow$ standardisation $\rightarrow$ $\ell_2$ logistic regression ($C=1$, lbfgs, max\_iter 2000). The published equation (Table~I of the paper) is the final model refitted on all $n$ employees, with coefficients back-transformed to raw units: $\beta_j^{raw}=\beta_j^{std}/s_j$, $\beta_0^{raw}=\beta_0^{std}-\sum_j \beta_j^{std}m_j/s_j$ ($m_j, s_j$ = mean and SD after imputation). This is algebraically identical to the standardised model.
+\item Raw coefficients: contact\_out\_wh -0.13803, freetime\_work -0.19056, norest\_b +0.17043, night +0.02882, longday +0.02183, loc\_home -0.00798, computer -0.00825, usual\_hours\_week -0.01147; intercept +0.4077.
+\item Validation: stratified 5-fold CV (shuffle, seed 0); thresholds chosen in inner 3-fold CV inside each training fold (seed 1). The 0.150 threshold of the submitted version (chosen on pooled out-of-fold scores) is withdrawn. Decision-curve threshold probabilities (0.05--0.50) are a separate quantity, not an operating threshold.
+\item Bootstraps: three separate percentile bootstraps of fixed out-of-fold predictions, 1{,}000 replicates each. B8 AUROC 95\% CI: worker-level 0.600--0.616; PSU-level (sampling point within country) 0.599--0.617; country-level 0.593--0.625.
+\item \textbf{Harmonised seven-item model (2015 validation).} Same pipeline and learner, fitted on all 30{,}234 EWCS 2024 employees and applied unchanged to 35{,}308 EWCS 2015 employees (2024 medians used for imputation in both waves). Raw coefficients: freetime\_work -0.25502, norest\_b +0.20871, night +0.02967, longday +0.02406, loc\_home -0.00550, computer -0.01221, usual\_hours\_week -0.01143; intercept +0.1167. Imputation medians: free time 5, rest 0, night 0, long days 0, home 5, device 2, hours 40.
+\item \textbf{Harmonisation 2024 $\rightarrow$ 2015.} free time q50 $\rightarrow$ Q46 (2015 asks ``since you started your main paid job''); rest $<$11\,h q41 $\rightarrow$ Q38; night q38 $\rightarrow$ Q37a; long days q40 $\rightarrow$ Q37d; home q29d $\rightarrow$ Q35e (2015 scale daily \ldots never, 2024 always \ldots never); device q53a $\rightarrow$ Q30i (same 7-point scale); hours q21 $\rightarrow$ Q24. Codes 7--9 (not applicable, don\textquotesingle t know, refusal) set to missing; monthly counts $>$31 and hours outside 1--100 set to missing. Outcome 2015: Q79a (difficulty falling asleep) or Q79b (waking repeatedly) daily or several times a week over the last 12 months; 2024: q86 sleeping difficulties daily or several times a week in the last month. Employees only (Q7 = 1).
+\item Software: Python 3.9.13, scikit-learn 1.6.1, statsmodels 0.14.6, pandas 2.3.3, NumPy 1.26.4, SciPy 1.13.1; seed 0.
+\end{itemize}

@@ -1,0 +1,489 @@
+{
+  "EU27": {
+    "primary_statutory9": {
+      "DTI|sleep_bad": {
+        "est": 1.024,
+        "lo": 0.93,
+        "hi": 1.128,
+        "p": 0.626,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 33.9,
+        "p_wild": 0.256
+      },
+      "DTI|wellbeing": {
+        "est": -0.389,
+        "lo": -1.449,
+        "hi": 0.672,
+        "p": 0.473,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 33.9,
+        "p_wild": 0.511
+      },
+      "CONTACT|sleep_bad": {
+        "est": 1.027,
+        "lo": 0.941,
+        "hi": 1.121,
+        "p": 0.552,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 33.9,
+        "p_wild": 0.233
+      },
+      "CONTACT|wellbeing": {
+        "est": -1.001,
+        "lo": -1.906,
+        "hi": -0.097,
+        "p": 0.03,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 33.9,
+        "p_wild": 0.034
+      }
+    },
+    "Ireland_covered": {
+      "DTI|sleep_bad": {
+        "est": 1.038,
+        "lo": 0.945,
+        "hi": 1.141,
+        "p": 0.434,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 10,
+        "covered_pct": 37.9
+      },
+      "DTI|wellbeing": {
+        "est": -0.284,
+        "lo": -1.317,
+        "hi": 0.748,
+        "p": 0.589,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 10,
+        "covered_pct": 37.9
+      },
+      "CONTACT|sleep_bad": {
+        "est": 1.038,
+        "lo": 0.955,
+        "hi": 1.129,
+        "p": 0.38,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 10,
+        "covered_pct": 37.9
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.892,
+        "lo": -1.732,
+        "hi": -0.052,
+        "p": 0.037,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 10,
+        "covered_pct": 37.9
+      }
+    },
+    "all_worker_laws_only": {
+      "DTI|sleep_bad": {
+        "est": 0.937,
+        "lo": 0.86,
+        "hi": 1.02,
+        "p": 0.134,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 3,
+        "covered_pct": 15.1
+      },
+      "DTI|wellbeing": {
+        "est": -0.953,
+        "lo": -2.397,
+        "hi": 0.491,
+        "p": 0.196,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 3,
+        "covered_pct": 15.0
+      },
+      "CONTACT|sleep_bad": {
+        "est": 0.94,
+        "lo": 0.882,
+        "hi": 1.002,
+        "p": 0.056,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 3,
+        "covered_pct": 15.1
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.935,
+        "lo": -2.572,
+        "hi": 0.701,
+        "p": 0.263,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 3,
+        "covered_pct": 15.0
+      }
+    },
+    "individual_eligibility": {
+      "DTI|sleep_bad": {
+        "est": 0.95,
+        "lo": 0.872,
+        "hi": 1.036,
+        "p": 0.249,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 21.4
+      },
+      "DTI|wellbeing": {
+        "est": -0.721,
+        "lo": -1.846,
+        "hi": 0.404,
+        "p": 0.209,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 21.4
+      },
+      "CONTACT|sleep_bad": {
+        "est": 0.956,
+        "lo": 0.886,
+        "hi": 1.032,
+        "p": 0.251,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 21.4
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.812,
+        "lo": -2.03,
+        "hi": 0.405,
+        "p": 0.191,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 21.4
+      }
+    },
+    "as_submitted": {
+      "DTI|sleep_bad": {
+        "est": 1.069,
+        "lo": 0.976,
+        "hi": 1.172,
+        "p": 0.152,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 34.2
+      },
+      "DTI|wellbeing": {
+        "est": -0.439,
+        "lo": -1.494,
+        "hi": 0.616,
+        "p": 0.414,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 34.2
+      },
+      "CONTACT|sleep_bad": {
+        "est": 1.054,
+        "lo": 0.972,
+        "hi": 1.143,
+        "p": 0.203,
+        "n": 23732,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 34.2
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.778,
+        "lo": -1.657,
+        "hi": 0.1,
+        "p": 0.082,
+        "n": 23801,
+        "n_countries": 27,
+        "covered_countries": 9,
+        "covered_pct": 34.2
+      }
+    },
+    "leave_one_covered_out": {
+      "DTI": [
+        1.009,
+        1.05
+      ],
+      "CONTACT": [
+        1.007,
+        1.045
+      ]
+    },
+    "exposure_level": {
+      "weekly_pct_covered": 7.8,
+      "weekly_pct_uncovered": 9.3,
+      "OR": 0.857,
+      "lo": 0.596,
+      "hi": 1.232
+    }
+  },
+  "all35": {
+    "primary_statutory9": {
+      "DTI|sleep_bad": {
+        "est": 1.0,
+        "lo": 0.912,
+        "hi": 1.096,
+        "p": 0.997,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 26.6,
+        "p_wild": 0.491
+      },
+      "DTI|wellbeing": {
+        "est": -0.374,
+        "lo": -1.534,
+        "hi": 0.786,
+        "p": 0.527,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 26.6,
+        "p_wild": 0.563
+      },
+      "CONTACT|sleep_bad": {
+        "est": 0.983,
+        "lo": 0.898,
+        "hi": 1.076,
+        "p": 0.707,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 26.6,
+        "p_wild": 0.909
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.607,
+        "lo": -1.62,
+        "hi": 0.405,
+        "p": 0.24,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 26.6,
+        "p_wild": 0.281
+      }
+    },
+    "Ireland_covered": {
+      "DTI|sleep_bad": {
+        "est": 1.011,
+        "lo": 0.924,
+        "hi": 1.105,
+        "p": 0.816,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 10,
+        "covered_pct": 29.7
+      },
+      "DTI|wellbeing": {
+        "est": -0.305,
+        "lo": -1.448,
+        "hi": 0.838,
+        "p": 0.601,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 10,
+        "covered_pct": 29.7
+      },
+      "CONTACT|sleep_bad": {
+        "est": 0.99,
+        "lo": 0.908,
+        "hi": 1.08,
+        "p": 0.825,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 10,
+        "covered_pct": 29.7
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.489,
+        "lo": -1.454,
+        "hi": 0.477,
+        "p": 0.321,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 10,
+        "covered_pct": 29.7
+      }
+    },
+    "all_worker_laws_only": {
+      "DTI|sleep_bad": {
+        "est": 0.922,
+        "lo": 0.848,
+        "hi": 1.002,
+        "p": 0.057,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 3,
+        "covered_pct": 11.8
+      },
+      "DTI|wellbeing": {
+        "est": -0.921,
+        "lo": -2.423,
+        "hi": 0.582,
+        "p": 0.23,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 3,
+        "covered_pct": 11.8
+      },
+      "CONTACT|sleep_bad": {
+        "est": 0.908,
+        "lo": 0.849,
+        "hi": 0.971,
+        "p": 0.005,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 3,
+        "covered_pct": 11.8
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.612,
+        "lo": -2.283,
+        "hi": 1.06,
+        "p": 0.473,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 3,
+        "covered_pct": 11.8
+      }
+    },
+    "individual_eligibility": {
+      "DTI|sleep_bad": {
+        "est": 0.931,
+        "lo": 0.856,
+        "hi": 1.012,
+        "p": 0.092,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 16.8
+      },
+      "DTI|wellbeing": {
+        "est": -0.692,
+        "lo": -1.9,
+        "hi": 0.517,
+        "p": 0.262,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 16.8
+      },
+      "CONTACT|sleep_bad": {
+        "est": 0.92,
+        "lo": 0.85,
+        "hi": 0.996,
+        "p": 0.039,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 16.8
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.459,
+        "lo": -1.748,
+        "hi": 0.829,
+        "p": 0.485,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 16.8
+      }
+    },
+    "as_submitted": {
+      "DTI|sleep_bad": {
+        "est": 1.037,
+        "lo": 0.951,
+        "hi": 1.131,
+        "p": 0.409,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 26.9
+      },
+      "DTI|wellbeing": {
+        "est": -0.455,
+        "lo": -1.609,
+        "hi": 0.698,
+        "p": 0.439,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 26.9
+      },
+      "CONTACT|sleep_bad": {
+        "est": 1.006,
+        "lo": 0.925,
+        "hi": 1.095,
+        "p": 0.887,
+        "n": 30234,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 26.9
+      },
+      "CONTACT|wellbeing": {
+        "est": -0.425,
+        "lo": -1.407,
+        "hi": 0.556,
+        "p": 0.396,
+        "n": 30320,
+        "n_countries": 35,
+        "covered_countries": 9,
+        "covered_pct": 26.9
+      }
+    },
+    "leave_one_covered_out": {
+      "DTI": [
+        0.985,
+        1.025
+      ],
+      "CONTACT": [
+        0.964,
+        1.001
+      ]
+    },
+    "exposure_level": {
+      "weekly_pct_covered": 7.8,
+      "weekly_pct_uncovered": 10.1,
+      "OR": 0.793,
+      "lo": 0.551,
+      "hi": 1.141
+    }
+  },
+  "H7_equation": {
+    "intercept": 0.1167,
+    "coef_raw": {
+      "freetime_work": -0.25502,
+      "norest_b": 0.20871,
+      "night": 0.02967,
+      "longday": 0.02406,
+      "loc_home": -0.0055,
+      "computer": -0.01221,
+      "usual_hours_week": -0.01143
+    },
+    "imputation_median_2024": {
+      "freetime_work": 5.0,
+      "norest_b": 0.0,
+      "night": 0.0,
+      "longday": 0.0,
+      "loc_home": 5.0,
+      "computer": 2.0,
+      "usual_hours_week": 40.0
+    }
+  }
+}
